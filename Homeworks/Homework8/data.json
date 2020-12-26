@@ -1,0 +1,37 @@
+var jsonObject = [
+	{
+		"question": "What does HTML stand for?",
+		"option1": "Hyperlinks and Text Markup Language",
+		"option2": "Hyper Text Markup Language",
+		"option3": "Home Tool Markup Language",
+		"answer": "Hyper Text Markup Language"
+	},
+	{
+		"question": "What does CSS stand for?",
+		"option1": "Creative Style Sheets",
+		"option2": "Cascading Style Sheets",
+		"option3": "Computer Style Sheets",
+		"answer": "Cascading Style Sheets"
+	},
+	{
+		"question": "Which property is used to change the background color?",
+		"option1": "color",
+		"option2": "background-color",
+		"option3": "bgcolor",
+		"answer": "background-color"
+	},
+	{
+		"question": "Which property is used to change the left margin of an element?",
+		"option1": "padding-left",
+		"option2": "margin-left",
+		"option3": "indent",
+		"answer": "margin-left"
+	},
+	{
+		"question": "Select an example of a server-side programming language:",
+		"option1": "JavaScript",
+		"option2": "Perl ",
+		"option3": "HTML",
+		"answer": "Perl "
+	}
+]

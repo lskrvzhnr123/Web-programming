@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="js.js"></script>
+<script type="text/javascript" language="javascript" src="data.json"></script> 
+</head>
+<body>
+	<div class="wrapper">
+		<div class="quiz">
+			<div class="header">
+				<h2>Web Development Quiz</h2>				
+			</div>
+			<div class="body">
+				<div class="q"></div>
+				<button id="submit" class="sub" onclick="checkAnswer()">Submit Quiz</button>
+				<div id="summary">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<script type="text/javascript">
+  $(document).ready(function(e) {
+         $.each(jsonObject, function(i, item) {
+			    $('.q')
+			    .append('<section><h1>' + item.question +  '</h1><ul><br>' +
+    '<input type="radio" name="' + i +'" value="' + item.option1 + '">' + item.option1 + '<br>' +
+    '<input type="radio" name="' + i +'" value="' + item.option2 + '">' + item.option2 + '<br>' +
+    '<input type="radio" name="' + i +'" value="' + item.option3 + '">' + item.option3 + '</ul></section><br>')
+			});
+   });
+
+
+</script>
+</body>
+</html>
