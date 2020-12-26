@@ -1,0 +1,10 @@
+.wordcounter{
+	position: absolute;
+	margin: 100px 400px;
+
+}
+
+.textarea{
+	width: 500px;
+	height: 150px;
+}
